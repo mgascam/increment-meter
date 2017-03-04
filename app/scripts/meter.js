@@ -15,7 +15,7 @@ var Meter = (function ($) {
         }
 
         function render() {
-            $el.val(balance);
+            $el.val(balance.toFixed(2));
         }
 
         return {
